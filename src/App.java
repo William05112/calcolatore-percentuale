@@ -7,10 +7,10 @@ public class App {
         int somma = uno + due + tre;
 
         float percentualeUno = (float) uno * 100 / (float) somma;
-        System.out.println(percentualeUno);
+        System.out.println(Math.round(percentualeUno * 100.0) / 100.0);
         float percentualeDue = (float) due * 100 / (float) somma;
-        System.out.println(percentualeDue);
+        System.out.println(Math.round(percentualeDue * 100.0) / 100.0);
         float percentualeTre = (float) tre * 100 / (float) somma;
-        System.out.println(percentualeTre);
+        System.out.println(Math.round(percentualeTre * 100.0) / 100.0);
     }
 }
